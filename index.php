@@ -79,7 +79,6 @@
         <p><?php echo $random_tip; ?></p>
     </section>
 
-    <!-- Progress bar for PHP knowledge -->
     <section id="progress">
         <h2>How Well I Know PHP (Or So I Think):</h2>
         <div style="background-color: #f4f4f4; width: 100%; padding: 5px;">
