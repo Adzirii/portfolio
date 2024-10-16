@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -29,7 +30,8 @@
         <p>Have a question or want to get in touch? Feel free to send me a message using the form below, or contact me via email or social media.</p>
         
         <div class="contact-form">
-            <form action="send_mail.php" method="POST">
+        <form onsubmit="return showAlert();">
+            <!-- <form action="send_mail.php" method="POST"> -->
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" required>
@@ -48,6 +50,7 @@
                 <button type="submit">Send Message</button>
             </form>
         </div>
+ 
 
         <div class="social-links">
             <p>You can also find me on:</p>
@@ -57,8 +60,7 @@
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Nikita Liubov. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <?php include 'footer.php'; ?>
+
+    </body>
+<html>

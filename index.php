@@ -30,7 +30,7 @@
     <section id="intro">
         <h1>Welcome to My "PHP Masterpiece"</h1>
         <p>Hey there! I'm Nikita Liubov, a proud Java developer bravely venturing into the world of PHP — all for the sake of a university project. Java may be my first love, but for now, let's pretend this portfolio is all about PHP (even though we both know the truth).</p>
-        <a href="projects.php" class="btn">Check out my "PHP" Projects</a>
+        <a href="projects.php" class="button-link">Check out my "PHP" Projects</a>
     </section>
 
     <section id="bonus">
@@ -89,14 +89,7 @@
     </section>
 </main>
 
-<footer>
-    <p>© 2024 Nikita Liubov. Java forever... but PHP for now.</p>
-    <div class="social-links">
-        <a href="https://github.com/Adzirii" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/liubovnikita" target="_blank">LinkedIn</a> |
-        <a href="mailto:liubov.nikita@gmail.com">Email</a>
-    </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 </body>
 </html>

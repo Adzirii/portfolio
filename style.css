@@ -159,6 +159,37 @@ button[type="submit"]:hover {
 .social-links a:hover {
     text-decoration: underline;
 }
+.project {
+    text-align: center; /* Центрируем контент в секции проекта */
+}
+
+.project a {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+
+/* Button link styles */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #007bff; /* Синий цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 5px; /* Скругленные углы */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s; /* Анимация перехода */
+}
+
+.button-link:hover {
+    background-color: #0056b3; /* Более темный цвет при наведении */
+    transform: scale(1.05); /* Легкое увеличение при наведении */
+    color: white;
+}
+
+
 
 footer {
     margin-top: 50px;
@@ -166,15 +197,23 @@ footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); 
 } 
 
-footer .social-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease;
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #bbb;
 }
 
-footer .social-links a:hover {
-    color: #ffd700; 
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
 }

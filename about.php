@@ -60,14 +60,7 @@
     </section>
 </main>
 
-<footer>
-    <p>© 2024 Nikita Liubov. All rights reserved.</p>
-    <div class="social-links">
-        <a href="https://github.com/Adzirii" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/liubovnikita" target="_blank">LinkedIn</a> |
-        <a href="mailto:liubov.nikita@gmail.com">Email</a>
-    </div>
-</footer>
+<?php include 'footer.php'; ?>
 
 
 </body>
