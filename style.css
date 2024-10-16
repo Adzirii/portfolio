@@ -160,7 +160,7 @@ button[type="submit"]:hover {
     text-decoration: underline;
 }
 .project {
-    text-align: center; /* Центрируем контент в секции проекта */
+    text-align: center;
 }
 
 .project a {
@@ -169,23 +169,22 @@ button[type="submit"]:hover {
 }
 
 
-/* Button link styles */
 .button-link {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px 5px;
-    background-color: #007bff; /* Синий цвет фона */
-    color: white; /* Цвет текста */
+    background-color: #007bff; 
+    color: white; 
     text-align: center;
-    text-decoration: none; /* Убираем подчеркивание */
-    border-radius: 5px; /* Скругленные углы */
+    text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s; /* Анимация перехода */
+    transition: background-color 0.3s ease, transform 0.2s; 
 }
 
 .button-link:hover {
-    background-color: #0056b3; /* Более темный цвет при наведении */
-    transform: scale(1.05); /* Легкое увеличение при наведении */
+    background-color: #0056b3; 
+    transform: scale(1.05); 
     color: white;
 }
 
